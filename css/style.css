@@ -296,14 +296,46 @@ form button{
 	cursor: pointer;
 }
 
+.aboutus{
+	padding: 10px 0px;
+	display: flex;
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: gainsboro;
+	margin-top: 40px;	
+}
+.aboutus p{
+	font-size: 40px;
+}
+.aboutus .texto{
+	margin-top: 10px;
+}
+.aboutus button{
+	margin-top: 20px;
+	padding: 5px 25px;
+	border: 2px solid black;
+	border-radius: 2px;
+	color: black;
+	background-color: transparent;
+	cursor: pointer;
+
+}
+.aboutus button:hover{
+	border: 2px solid gray;
+	color: gray;
+}
+
 footer{
 	width: 100%;
 	padding: 30px 0px;
-	margin-top: 20px;
+/*	margin-top: 20px;*/
 	background-color: #282828;
 	color: white;
 	text-align: center;
 }
+
 
 
 /*ESTILO PARA DESPOSITIVOS MÓVEIS*/
